@@ -1,0 +1,9 @@
+CompileFlags:
+  Remove:
+    - -mabi=lp64
+    - -mcpu=cell
+    - -march=*
+    - -mfloat-abi=*
+    - -mfpu=*
+    - -mfix-cortex-a53-835769
+    - -mcpu=*
